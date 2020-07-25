@@ -47,4 +47,3 @@ for i in range(len(target_school)):
 df2 = pd.DataFrame({'起始學校':init,'目標學校':target,'距離':distance,'時間':duration})
 df2.index = df2.index+1
 df2.to_excel("初鹿國中_花蓮縣.xlsx",index=True)
-
