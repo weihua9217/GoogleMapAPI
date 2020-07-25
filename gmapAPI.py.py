@@ -3,7 +3,7 @@ import pandas as pd
 import openpyxl
 import os
 
-GOOGLE_API_KEY = "AIzaSyAULDBUmyyVaydPXJ_eim6WjIYupEQT_Rs"
+GOOGLE_API_KEY = "YOU KEY"
 gmaps = googlemaps.Client(key= GOOGLE_API_KEY)
 df = pd.read_csv('2020Q2盤點花蓮縣20200720-即時.csv')
 init_school = list()
