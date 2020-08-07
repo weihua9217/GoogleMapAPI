@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa25fefd-e397-4a64-8102-6b6fc6ca9b65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GoogleMap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GoogleMap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020Q2盤點臺東縣20200720-即時.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020Q2盤點臺東縣20200720-即時.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020Q2盤點花蓮縣20200720-即時.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020Q2盤點花蓮縣20200720-即時.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/gmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.csv.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/初鹿國中_臺東縣.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/初鹿國中_花蓮縣.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/豐裡國小_臺東縣.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/豐裡國小_花蓮縣.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +41,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test0320" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/goomap" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.gmap">
+    <configuration name="gmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GoogleMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GoogleMap" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gmap" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -70,41 +105,81 @@
       <option name="presentableId" value="Default" />
       <updated>1594893048557</updated>
     </task>
+    <task id="LOCAL-00001" summary="update0807">
+      <created>1596787849990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596787849990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update0807">
+      <created>1596788028940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596788028940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update0807" />
+    <option name="LAST_COMMIT_MESSAGE" value="update0807" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="452" y="12" key="CommitChangelistDialog2" timestamp="1596787861740">
+    <state x="452" y="12" key="CommitChangelistDialog2" timestamp="1596788028490">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="452" y="12" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596787861740" />
-    <state x="309" y="204" key="FileChooserDialogImpl" timestamp="1596782885583">
+    <state x="452" y="12" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596788028490" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1596788115096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="309" y="204" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596782885583" />
-    <state width="1282" height="320" key="GridCell.Tab.0.bottom" timestamp="1595297006564">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1596788115096" />
+    <state x="309" y="204" key="FileChooserDialogImpl" timestamp="1596788291059">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="326" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594895243917" />
+    <state x="309" y="204" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596788291059" />
+    <state width="1260" height="207" key="GridCell.Tab.0.bottom" timestamp="1596788772109">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1260" height="207" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
     <state width="1282" height="320" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1282" height="320" key="GridCell.Tab.0.center" timestamp="1595297006564">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1260" height="207" key="GridCell.Tab.0.center" timestamp="1596788772109">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="326" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594895243916" />
+    <state width="1260" height="207" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
     <state width="1282" height="320" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1282" height="320" key="GridCell.Tab.0.left" timestamp="1595297006564">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1260" height="207" key="GridCell.Tab.0.left" timestamp="1596788772109">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="326" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594895243916" />
+    <state width="1260" height="207" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
     <state width="1282" height="320" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1282" height="320" key="GridCell.Tab.0.right" timestamp="1595297006564">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="1260" height="207" key="GridCell.Tab.0.right" timestamp="1596788772109">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="326" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594895243917" />
+    <state width="1260" height="207" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
     <state width="1282" height="320" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state x="228" y="103" key="SettingsEditor" timestamp="1595296387718">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state x="137" y="82" key="SettingsEditor" timestamp="1596788314809">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="137" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1594893343559" />
+    <state x="137" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596788314809" />
     <state x="228" y="103" key="SettingsEditor/0.0.2560.1080@0.0.2560.1080" timestamp="1595296387718" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1596788035797">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596788035797" />
   </component>
 </project>

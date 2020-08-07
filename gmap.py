@@ -104,7 +104,8 @@ class ModeOne():
 if __name__ == '__main__':
 
     #input your api key
-    GOOGLE_API_KEY = "AIzaSyAULDBUmyyVaydPXJ_eim6WjIYupEQT_Rs"
+    print("請輸入GoogleApiKey:")
+    GOOGLE_API_KEY = input()
     gmaps = googlemaps.Client(key= GOOGLE_API_KEY)
     #Two mode
     #1:fix one point
