@@ -35,6 +35,8 @@ class ModeOne():
     def SetInputFile(self):
         self._inputFile = input()
 
+
+
     def SetSchoolInf(self):
         print("請輸入學校名稱")
         self._init_school.SetName(input())
@@ -52,6 +54,7 @@ class ModeOne():
         try:
             self.SetInputFile()
             self._arrival_df = pd.read_excel(self._inputFile)
+            print(self._arrival_df)
             return 1
         except:
             print("找不到檔案")
@@ -101,7 +104,7 @@ class ModeOne():
 if __name__ == '__main__':
 
     #input your api key
-    GOOGLE_API_KEY = input()
+    GOOGLE_API_KEY = "AIzaSyAULDBUmyyVaydPXJ_eim6WjIYupEQT_Rs"
     gmaps = googlemaps.Client(key= GOOGLE_API_KEY)
     #Two mode
     #1:fix one point
