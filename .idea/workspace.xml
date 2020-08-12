@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa25fefd-e397-4a64-8102-6b6fc6ca9b65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GoogleMap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GoogleMap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020Q2盤點臺東縣20200720-即時.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020Q2盤點臺東縣20200720-即時.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020Q2盤點花蓮縣20200720-即時.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020Q2盤點花蓮縣20200720-即時.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/warn-gmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gmap/xref-gmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gmap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/gmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.csv.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/初鹿國中_臺東縣.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/初鹿國中_花蓮縣.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豐裡國小_臺東縣.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/豐裡國小_花蓮縣.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +38,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/goomap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\owner\Documents\GitHub\GoogleMapAPI" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.gmap">
     <configuration name="gmap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -148,29 +151,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1596788115096" />
-    <state x="309" y="204" key="FileChooserDialogImpl" timestamp="1596788291059">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="515" y="255" key="FileChooserDialogImpl" timestamp="1597018701723">
+      <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="309" y="204" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1596788291059" />
-    <state width="1260" height="207" key="GridCell.Tab.0.bottom" timestamp="1596788772109">
+    <state x="515" y="255" key="FileChooserDialogImpl/0.0.2560.1080@0.0.2560.1080" timestamp="1597018701723" />
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom" timestamp="1597210568169">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1260" height="207" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
+    <state width="1515" height="187" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1597210568169" />
     <state width="1282" height="320" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1260" height="207" key="GridCell.Tab.0.center" timestamp="1596788772109">
+    <state width="1515" height="187" key="GridCell.Tab.0.center" timestamp="1597210568169">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1260" height="207" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
+    <state width="1515" height="187" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1597210568169" />
     <state width="1282" height="320" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1260" height="207" key="GridCell.Tab.0.left" timestamp="1596788772109">
+    <state width="1515" height="187" key="GridCell.Tab.0.left" timestamp="1597210568168">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1260" height="207" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
+    <state width="1515" height="187" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1597210568168" />
     <state width="1282" height="320" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
-    <state width="1260" height="207" key="GridCell.Tab.0.right" timestamp="1596788772109">
+    <state width="1515" height="187" key="GridCell.Tab.0.right" timestamp="1597210568169">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1260" height="207" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1596788772109" />
+    <state width="1515" height="187" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1597210568169" />
     <state width="1282" height="320" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1595297006564" />
     <state x="137" y="82" key="SettingsEditor" timestamp="1596788314809">
       <screen x="0" y="0" width="1536" height="864" />
@@ -181,5 +185,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596788035797" />
+    <state x="868" y="106" width="1507" height="787" key="dock-window-1" timestamp="1597120217081">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="868" y="106" width="1507" height="787" key="dock-window-1/0.0.2560.1080@0.0.2560.1080" timestamp="1597120217081" />
   </component>
 </project>
