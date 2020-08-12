@@ -1,7 +1,9 @@
-# GoogleMapAPI
+# googleMapAPI
 call googleAPI to calculate distance and duration
 
 主要分成兩種模式，**使用時須輸入GoogleMapAPI的Key**
+https://developers.google.com/maps/documentation?hl=zh-tw
+
 
 **模式一**
 
@@ -14,3 +16,4 @@ call googleAPI to calculate distance and duration
 	輸入一檔案，從其中取兩兩組合，計算兩點距離及時間。
 	輸入：包含地方名稱及地址之檔案(xlsx檔)
   	輸出：組合後的距離及行車時間結果
+
