@@ -67,6 +67,7 @@ class ModeOne():
         endSchoolName = list()
         startSchoolAddress.append(self._init_location._address)
         startSchoolName.append(self._init_location._name)
+        #print(self._arrival_df)
         for i in self._arrival_df["地方名稱"]:
             endSchoolName.append(i)
         for i in self._arrival_df["地方地址"]:
@@ -177,6 +178,7 @@ if __name__ == '__main__':
 
     try:
         gmaps = googlemaps.Client(key= GOOGLE_API_KEY)
-        start()
     except:
         print("錯誤的ApiKey")
+
+    start()
