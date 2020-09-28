@@ -81,7 +81,7 @@ class PlacesAPI():
 
 
 if __name__ == '__main__':
-    GOOGLE_API_KEY = "AIzaSyDbL0Yxx3sRY58b2c3NaYb6kvqAdDqrf60"
+    GOOGLE_API_KEY = "Your Key"
     gmaps = googlemaps.Client(key= GOOGLE_API_KEY)
     # stage = DistanceMatrix()
     # stage.Start()
