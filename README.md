@@ -5,6 +5,7 @@ call googleAPI to calculate distance and duration
 
 https://developers.google.com/maps/documentation?hl=zh-tw
 
+前瞻計畫:
 
 **模式一**
 
@@ -18,8 +19,6 @@ https://developers.google.com/maps/documentation?hl=zh-tw
 	輸入：包含地方名稱及地址之檔案(xlsx檔)
   	輸出：組合後的距離及行車時間結果
 
-
-
-**p.s** 
+DSC:
 	
-	add DSC_DEMO.py and Maps.html for DSC
+	add the demo code,DSC_DEMO.py and Maps.html for DSC
