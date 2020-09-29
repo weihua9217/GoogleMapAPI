@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NCCU Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+     
+     <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUKEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    
+    <style type="text/css"> /*告知瀏覽器是CSS語法*/
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map1 { /*id選擇器*/
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    
+    <script>
+    const googleMap = new Vue({  
+        data:{map: null},
+        methods:{  
+             initMap() {
+                let location = {
+                    lat: 24.9869, // 經度
+                    lng: 121.5765 // 緯度
+                };   
+                this.map = new google.maps.Map(document.getElementById("map1"), {
+                    center: {
+                        lat: 24.9869,
+                        lng: 121.5765,
+                        },
+                    zoom: 16,
+                /* styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },{
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },{
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }    
+        ] */
+            });
+            let marker = new google.maps.Marker({
+                position: location,
+                map: this.map,
+                icon: {
+                    path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                    scale: 5,
+                    strokeColor: '#ff4500'
+                },
+            });     
+            let line = new google.maps.Polyline({
+                path: [{lat: 24.9869, lng: 121.5765}, {lat: 24.98693, lng: 121.5751}],
+                icons: [
+                {
+                    icon:{
+                    path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                    scale: 5,
+                    strokeColor: '#ff4500',
+                    rotation:90
+                    },
+                    offset: '50%' 
+                },{
+                    icon:{
+                    path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW,
+                    scale: 5,
+                    strokeColor: '#ff4500',
+                    rotation:90
+                    },
+                    offset: '100%' 
+                },
+                ],
+                strokeColor:'#ff4500',
+                map: this.map
+            });     
+        }
+    },
+        created() {
+            window.addEventListener('load', () => {
+            this.initMap();
+            });
+        }
+    });         
+    </script>
+  </head>
+  <body>
+    <div id="map1"></div>   
+  </body>
+</html>
